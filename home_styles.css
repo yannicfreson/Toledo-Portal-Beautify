@@ -1,0 +1,216 @@
+.navbar-inverse {
+  background-color: #202225;
+  border-color: #202225;
+}
+
+.navbar-default {
+  background-color: #2f3136;
+  border-color: #2f3136;
+}
+
+body {
+  background-color: #202225;
+}
+
+.panel-default > .panel-heading {
+  background-color: #2f3136;
+  border-color: #202225;
+}
+
+.tol-enrollments-tiles {
+  background-color: #2f3136;
+  border-color: #202225;
+}
+
+.tol-events-widget .panel-body {
+  background-color: #2f3136;
+  border-color: #202225;
+}
+
+.tol-events-list .tol-event.tol-unread-item {
+  background-color: #2f3136;
+  border-color: #202225;
+}
+
+.tol-events-list .tol-event {
+  background-color: #2f3136;
+  border-color: #202225;
+}
+
+.tol-events-list .tol-event a:hover {
+  background-color: #2f3136;
+  border-color: #202225;
+}
+
+.tol-events-list .tol-event.tol-unread-item a .tol-title {
+  color: #b9bbbe;
+}
+
+.tol-events-list .tol-event a .tol-what-happened {
+  color: #72767d;
+}
+
+.tol-events-list .tol-event a .tol-source {
+  color: #72767d;
+}
+
+.tol-panel-title {
+  color: #b9bbbe !important;
+}
+
+.panel-default {
+  background-color: #2f3136;
+  border-color: #202225;
+}
+
+.tol-enrollments-preview-tiles .tol-enrollment-container .tol-enrollment,
+.tol-enrollments-tiles .tol-enrollment-container .tol-enrollment {
+  background-color: #36393f;
+  border-color: #202225;
+}
+
+.tol-enrollments-preview-tiles
+  .tol-enrollment-container
+  .tol-enrollment
+  .wrapper,
+.tol-enrollments-tiles .tol-enrollment-container .tol-enrollment .wrapper {
+  background-color: #40444b;
+  border-color: #202225;
+}
+
+.tol-enrollments-preview-tiles
+  .tol-enrollment-container
+  .tol-enrollment
+  .tol-enrollment-info
+  .tol-enrollment-label,
+.tol-enrollments-preview-tiles
+  .tol-enrollment-preview-container
+  .tol-enrollment
+  .tol-enrollment-info
+  .tol-enrollment-label,
+.tol-enrollments-tiles
+  .tol-enrollment-container
+  .tol-enrollment
+  .tol-enrollment-info
+  .tol-enrollment-label,
+.tol-enrollments-tiles
+  .tol-enrollment-preview-container
+  .tol-enrollment
+  .tol-enrollment-info
+  .tol-enrollment-label {
+  color: #b9bbbe;
+}
+
+.tol-enrollments-preview-tiles
+  .tol-enrollment-container
+  .tol-enrollment
+  .tol-enrollment-info
+  .tol-enrollment-learning-unit-id,
+.tol-enrollments-preview-tiles
+  .tol-enrollment-preview-container
+  .tol-enrollment
+  .tol-enrollment-info
+  .tol-enrollment-learning-unit-id,
+.tol-enrollments-tiles
+  .tol-enrollment-container
+  .tol-enrollment
+  .tol-enrollment-info
+  .tol-enrollment-learning-unit-id,
+.tol-enrollments-tiles
+  .tol-enrollment-preview-container
+  .tol-enrollment
+  .tol-enrollment-info
+  .tol-enrollment-learning-unit-id {
+  color: #b9bbbe;
+}
+
+.tol-enrollment .tol-events-badge {
+  filter: grayscale(100%);
+}
+
+.navbar-primary .tol-events-badge {
+  filter: grayscale(100%);
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn-group:not(:last-child) > .btn,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  background-color: #202225;
+  border-color: #202225;
+}
+
+.btn-primary {
+  background-color: #43b581;
+  border-color: #346954;
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:hover,
+.open > .btn-primary.dropdown-toggle {
+  background-color: #43b581;
+  border-color: #346954;
+}
+
+.input-group-addon {
+  background-color: #43b581;
+  border-color: #346954;
+}
+
+.input-group-addon {
+  color: #202225;
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:hover,
+.open > .btn-primary.dropdown-toggle {
+  color: #202225;
+}
+
+.btn-primary {
+  color: #202225;
+}
+
+.btn-default {
+  color: #202225;
+}
+
+.btn .caret,
+.btn-group > .btn:first-child {
+  background-color: #43b581;
+  border-color: #346954;
+}
+
+.tol-enrollments-preview-tiles
+  .tol-enrollment-container
+  .tol-enrollment
+  .wrapper::before,
+.tol-enrollments-preview-tiles
+  .tol-enrollment-preview-container
+  .tol-enrollment
+  .wrapper::before,
+.tol-enrollments-tiles
+  .tol-enrollment-container
+  .tol-enrollment
+  .wrapper::before,
+.tol-enrollments-tiles
+  .tol-enrollment-preview-container
+  .tol-enrollment
+  .wrapper::before {
+  background-color: #202225;
+  border-color: #202225;
+  font-size: unset;
+}
+
+footer {
+  display: none;
+}
+
+.main-content {
+  margin-top: 2rem;
+}

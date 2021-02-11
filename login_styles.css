@@ -1,0 +1,78 @@
+body {
+  background: url(https://i.pinimg.com/originals/3a/ba/07/3aba073ed5032293d7e854a1fc7502a7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.flyout,
+.global-footer .footer-navbar,
+.global-header {
+  background: none;
+}
+
+header {
+  display: none;
+}
+
+.footer-wrapper {
+  display: none;
+}
+
+#box-content {
+  background-color: rgba(50, 50, 75, 0.8);
+  border-radius: 0.5rem;
+  margin-top: 20%;
+}
+
+.btn-primary,
+.btn-primary:visited {
+  background-color: rgba(48, 2, 85);
+  border-color: rgba(28, 0, 65);
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: rgba(38, 0, 75);
+  border-color: rgba(18, 0, 55);
+}
+
+#box-content .word {
+  display: none;
+}
+
+.btn,
+button,
+input[type="submit"] {
+  display: block;
+}
+
+#btnnextauthlogin {
+  margin-bottom: 0.72rem;
+  height: 5.44rem;
+}
+
+.form-check-input {
+  margin-top: 0.35rem;
+}
+
+#pwdLoginBtn {
+  margin-top: 1.09rem;
+  height: 2.7rem;
+}
+
+#headingOne {
+  margin-top: 1.64rem;
+}
+
+.login-input .fa {
+  color: unset;
+}
+
+img,
+svg {
+  filter: grayscale(100%);
+}
+
+#box-content input[type="password"] {
+  filter: none;
+}
