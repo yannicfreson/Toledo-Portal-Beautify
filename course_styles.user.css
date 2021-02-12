@@ -1,0 +1,186 @@
+#contentFrame,
+#schemePreview,
+.schemePreviewBody,
+body {
+  background-color: #202225 !important;
+}
+
+#breadcrumbs {
+  background-color: #2f3136;
+  border-color: #2f3136;
+}
+
+#menuWrap #puller a#menuPuller {
+  background-color: #2f3136;
+  border-color: #2f3136;
+}
+
+#navigationPane {
+  background-color: #36393f;
+  border-color: #202225;
+}
+
+#ccShortcutViewId ul#ccShortcutViewId_contents li.subhead,
+#courseMenuPalette ul#courseMenuPalette_contents li.subhead,
+#courseMenu_folderView ul.tree li.subhead {
+  background-color: #36393f;
+  border-color: #202225;
+}
+
+#menuWrap.menuWrap #dashboardPalette .navPaletteTitle {
+  background-color: #50545b;
+  border-color: #202225;
+}
+
+#content.contentBox .contentPageItem,
+#content.contentBox ul#announcementList > li,
+#content.contentBox ul.buildList > li,
+#content.contentBox ul.contentList > li,
+#content.contentBox ul.contentList > li.noDetails.itemIsUnavailable,
+#content.contentBox ul.contentListPlain > li {
+  background-color: #36393f;
+  border-color: #202225;
+}
+
+body.learningAnalytics #containerdiv .statusFooter,
+body.learningAnalytics
+  #content.contentBox
+  ul#content_listContainer
+  > li
+  .statusFooter,
+body.learningAnalytics ul#pageList > li .statusFooter,
+body.tol_learningModulePage.learningAnalytics li#instructions .statusFooter {
+  background-color: unset;
+  border-color: unset;
+}
+
+#content.contentBox ul.contentList > li > .item_icon {
+  display: none;
+}
+
+#content.contentBox #pageTitleDiv h1#pageTitleHeader span,
+div.portfolioRightPage #pageTitleDiv h1#pageTitleHeader span {
+  color: #b9bbbe !important;
+}
+
+#content.contentBox .contentPageItem > .details,
+#content.contentBox ul#announcementList > li > .details,
+#content.contentBox ul.buildList > li > .details,
+#content.contentBox ul.contentList > li.noDetails.itemIsUnavailable > .details,
+#content.contentBox ul.contentList > li > .details,
+#content.contentBox ul.contentListPlain > li > .details {
+  color: #b9bbbe !important;
+}
+
+.announcementList span {
+  color: #b9bbbe !important;
+}
+
+#menuWrap #puller a#menuPuller:hover {
+  background-color: #36393f;
+  border-color: #202225;
+}
+
+#toledoHelp #toledoHelpToggle {
+  background-color: unset;
+}
+
+body.learningAnalytics #breadcrumbs .statusContainer.folderStatus > .badge,
+body.learningAnalytics #pageTitleDiv .statusContainer.folderStatus > .badge {
+  color: #b9bbbe;
+  border-color: #b9bbbe;
+}
+
+body.learningAnalytics
+  ul#content_listContainer.contentList
+  > li
+  > .details::after,
+body.learningAnalytics
+  ul#content_listContainer.contentListPlain
+  > li
+  > .details::after {
+  background-image: unset;
+}
+
+.contentList .details .contextItemDetailsHeaders,
+.contentListPlain .details .contextItemDetailsHeaders {
+  border-color: #40444b;
+  background: unset;
+}
+
+.contentList .details .contextItemDetailsHeaders,
+.contentListPlain .details .contextItemDetailsHeaders {
+  color: #b9bbbe;
+}
+
+.vtbegenerated a,
+a {
+  color: #696b6e;
+}
+
+.vtbegenerated a,
+a::visited {
+  color: #696b6e;
+}
+
+body.learningAnalytics
+  ul#content_listContainer.contentList
+  > li.isFolder.notAllSeen::before,
+body.learningAnalytics ul#content_listContainer.contentList > li.unseen::before,
+body.learningAnalytics
+  ul#content_listContainer.contentListPlain
+  > li.isFolder.notAllSeen::before,
+body.learningAnalytics
+  ul#content_listContainer.contentListPlain
+  > li.unseen::before {
+  border-left: 6px solid #696b6e;
+}
+
+body.learningAnalytics
+  #content.contentBox
+  ul.contentList
+  > li
+  .statusContainer.itemStatus::before,
+body.learningAnalytics
+  #content.contentBox
+  ul.contentListPlain
+  > li
+  .statusContainer.itemStatus::before,
+body.learningAnalytics #pageTitleDiv .statusContainer.itemStatus::before {
+  color: #b9bbbe;
+}
+
+#announcementList .item > h3 > span[style*="color:#000000"],
+#announcementList h3.item[style*="color:#000000"],
+.contentList .item > h3 > span[style*="color:#000000"] {
+  color: #b9bbbe !important;
+}
+
+.contentList .item > h3 > a > span[style*="color:#000000"] {
+  color: #b9bbbe !important;
+}
+
+#breadcrumbs .path li:not(.root):not(.coursePath).placeholder a,
+#breadcrumbs .simplePath li:not(.root):not(.coursePath).placeholder a {
+  color: #b9bbbe;
+}
+
+.courseMenuResizer:hover {
+  background-color: #26292f;
+}
+
+.courseMenuResizer {
+  background-color: #56595f;
+}
+
+.contentPane .userActions a {
+  background-color: #56595f;
+}
+
+.userActions a::before {
+  color: #b9bbbe;
+}
+
+.contentPane .userActions a::after {
+  border: unset;
+}

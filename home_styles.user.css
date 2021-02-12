@@ -144,21 +144,21 @@ body {
 }
 
 .btn-primary {
-  background-color: #43b581;
-  border-color: #346954;
+  background-color: #7289da;
+  border-color: #53618f;
 }
 
 .btn-primary.active,
 .btn-primary:active,
 .btn-primary:hover,
 .open > .btn-primary.dropdown-toggle {
-  background-color: #43b581;
-  border-color: #346954;
+  background-color: #7289da;
+  border-color: #53618f;
 }
 
 .input-group-addon {
-  background-color: #43b581;
-  border-color: #346954;
+  background-color: #7289da;
+  border-color: #53618f;
 }
 
 .input-group-addon {
@@ -182,8 +182,8 @@ body {
 
 .btn .caret,
 .btn-group > .btn:first-child {
-  background-color: #43b581;
-  border-color: #346954;
+  background-color: #7289da;
+  border-color: #53618f;
 }
 
 .tol-enrollments-preview-tiles
