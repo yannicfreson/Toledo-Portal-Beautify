@@ -214,3 +214,39 @@ footer {
 .main-content {
   margin-top: 2rem;
 }
+
+/*NAVIGATION*/
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-text {
+  color: #b9bbbe;
+}
+
+/*NAVIGATION HOVER*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-text {
+  color: #e3e3e3;
+}
+
+/*NAVIGATION DROPDOWN BUTTON ACTIVATED*/
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #202225;
+  color: #b9bbbe;
+}
+
+/*NAVIGATION DROPDOWN MENU*/
+.dropdown-menu {
+  background-color: #202225;
+}
+
+/*ITEMS NAVIGATION DROPDOWN MENU*/
+.dropdown-menu > li > a {
+  color: #b9bbbe;
+}
+
+/*ITEMS NAVIGATION DROPDOWN MENU HOVER*/
+.dropdown-menu > li > a:hover {
+  background-color: #2f3136;
+  color: #b9bbbe;
+}
