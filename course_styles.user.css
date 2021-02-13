@@ -264,3 +264,9 @@ body.learningAnalytics #pageTitleDiv .statusContainer.itemStatus::before {
   > span:not(.reorder):not(.contextMenuContainer) {
   color: #fff;
 }
+
+.warning {
+  background-color: #7289da;
+  border-color: #53618f;
+  color: #fff;
+}
