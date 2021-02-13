@@ -22,3 +22,13 @@ NEW Home page
 OLD Home page
 
 ![](https://github.com/yannicfreson/Toledo-Portal-Beautify/blob/main/res/home_before.png?raw=true)
+
+
+NEW Course page
+
+![](https://github.com/yannicfreson/Toledo-Portal-Beautify/blob/main/res/course_after.png?raw=true)
+
+
+OLD Course page
+
+![](https://github.com/yannicfreson/Toledo-Portal-Beautify/blob/main/res/course_before.png?raw=true)
