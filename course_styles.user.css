@@ -54,6 +54,13 @@ body.tol_learningModulePage.learningAnalytics li#instructions .statusFooter {
   border-color: unset;
 }
 
+#ccShortcutViewId ul#ccShortcutViewId_contents li.subhead:hover,
+#courseMenuPalette ul#courseMenuPalette_contents li.subhead:hover,
+#courseMenu_folderView ul.tree li.subhead:hover {
+  background-color: #30343b !important;
+  border-color: #202225;
+}
+
 #content.contentBox ul.contentList > li > .item_icon {
   display: none;
 }
@@ -150,6 +157,13 @@ body.learningAnalytics #pageTitleDiv .statusContainer.itemStatus::before {
   color: #b9bbbe;
 }
 
+#breadcrumbs .path li:not(.root):not(.coursePath).placeholder a:focus,
+#breadcrumbs .path li:not(.root):not(.coursePath).placeholder a:hover,
+#breadcrumbs .simplePath li:not(.root):not(.coursePath).placeholder a:focus,
+#breadcrumbs .simplePath li:not(.root):not(.coursePath).placeholder a:hover {
+  color: #b9bbbe;
+}
+
 #announcementList .item > h3 > span[style*="color:#000000"],
 #announcementList h3.item[style*="color:#000000"],
 .contentList .item > h3 > span[style*="color:#000000"] {
@@ -183,4 +197,70 @@ body.learningAnalytics #pageTitleDiv .statusContainer.itemStatus::before {
 
 .contentPane .userActions a::after {
   border: unset;
+}
+
+#content.contentBox .contentPageItem > .item,
+#content.contentBox .contentPageItem > .item > h3,
+#content.contentBox .contentPageItem > .item > h3 > a > span,
+#content.contentBox
+  .contentPageItem
+  > .item
+  > h3
+  > span:not(.reorder):not(.contextMenuContainer),
+#content.contentBox ul#announcementList > li > .item,
+#content.contentBox ul#announcementList > li > .item > h3,
+#content.contentBox ul#announcementList > li > .item > h3 > a > span,
+#content.contentBox
+  ul#announcementList
+  > li
+  > .item
+  > h3
+  > span:not(.reorder):not(.contextMenuContainer),
+#content.contentBox ul.buildList > li > .item,
+#content.contentBox ul.buildList > li > .item > h3,
+#content.contentBox ul.buildList > li > .item > h3 > a > span,
+#content.contentBox
+  ul.buildList
+  > li
+  > .item
+  > h3
+  > span:not(.reorder):not(.contextMenuContainer),
+#content.contentBox ul.contentList > li.noDetails.itemIsUnavailable > .item,
+#content.contentBox
+  ul.contentList
+  > li.noDetails.itemIsUnavailable
+  > .item
+  > h3,
+#content.contentBox
+  ul.contentList
+  > li.noDetails.itemIsUnavailable
+  > .item
+  > h3
+  > a
+  > span,
+#content.contentBox
+  ul.contentList
+  > li.noDetails.itemIsUnavailable
+  > .item
+  > h3
+  > span:not(.reorder):not(.contextMenuContainer),
+#content.contentBox ul.contentList > li > .item,
+#content.contentBox ul.contentList > li > .item > h3,
+#content.contentBox ul.contentList > li > .item > h3 > a > span,
+#content.contentBox
+  ul.contentList
+  > li
+  > .item
+  > h3
+  > span:not(.reorder):not(.contextMenuContainer),
+#content.contentBox ul.contentListPlain > li > .item,
+#content.contentBox ul.contentListPlain > li > .item > h3,
+#content.contentBox ul.contentListPlain > li > .item > h3 > a > span,
+#content.contentBox
+  ul.contentListPlain
+  > li
+  > .item
+  > h3
+  > span:not(.reorder):not(.contextMenuContainer) {
+  color: #fff;
 }
