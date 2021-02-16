@@ -178,6 +178,22 @@ output {
   color: #b9bbbe;
 }
 
+.tol-enrollment-information.available
+.panel-heading{
+    background-color: #2f3136;
+}
+.tol-enrollment-information.available
+    .panel-heading
+    .tol-title{
+    color: #b9bbbe
+}
+
+.tol-enrollment-information.available
+.panel-body{
+    background-color: #40444b;
+    color: #b9bbbe    
+}
+
 /*AANTAL MELDINGEN VAKKEN*/
 .tol-enrollment .tol-events-badge {
   background-color: #871400;
