@@ -190,7 +190,8 @@ output {
 
 .tol-enrollment-information.available
 .panel-body{
-    background-color: #40444b    
+    background-color: #40444b;
+    color: #b9bbbe    
 }
 
 /*AANTAL MELDINGEN VAKKEN*/
