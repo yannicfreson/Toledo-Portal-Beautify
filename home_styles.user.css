@@ -37,6 +37,30 @@ body {
   border-color: #202225;
 }
 
+/*LINKS*/
+a {
+    color: #00a8c9;
+}
+
+/*LINKS HOVER*/
+a:hover {
+    color: #027b93;
+    text-decoration: none;
+}
+
+/*CLOSE BUTTON*/
+.close {
+    color: #b9bbbe;
+    opacity: 100;
+    filter: 0;
+}
+
+/*CLOSE BUTTON*/
+.close:hover {
+    color: #e3e3e3;
+}
+
+
 /*UPDATES EN BERICHTEN HOVER*/
 .tol-events-list .tol-event a:hover {
   background-color: #202225;
@@ -44,42 +68,52 @@ body {
 }
 
 /*VAKKEN HOVER*/
-.tol-enrollments-preview-tiles .tol-enrollment-container .tol-enrollment .wrapper, .tol-enrollments-tiles .tol-enrollment-container .tol-enrollment:hover .wrapper{
-    background-color: #202225;
-    border-color: #202225;
+.tol-enrollments-preview-tiles
+  .tol-enrollment-container
+  .tol-enrollment
+  .wrapper,
+.tol-enrollments-tiles
+  .tol-enrollment-container
+  .tol-enrollment:hover
+  .wrapper {
+  background-color: #202225;
+  border-color: #202225;
 }
 
 /*UPDATES EN BERICHTEN DROPDOWN BORDERS*/
-.tol-navbar-flyout-content, .tol-navbar-flyout-header .tol-navbar-flyout-content>* {
-    border-bottom: 0px;
-    border-top: 0px;
+.tol-navbar-flyout-content,
+.tol-navbar-flyout-header .tol-navbar-flyout-content > * {
+  border-bottom: 0px;
+  border-top: 0px;
 }
 
 /*FILTER SEARCH BORDER*/
-.tol-enrollments-list .tol-loading, .tol-enrollments-list .tol-no-enrollments {
-    border: 0px;
+.tol-enrollments-list .tol-loading,
+.tol-enrollments-list .tol-no-enrollments {
+  border: 0px;
 }
 
 /*TEXTBOX TEXT COLOR*/
-.form-control, output {
-    color: #b9bbbe;
+.form-control,
+output {
+  color: #b9bbbe;
 }
 
 /*LIST STYLE*/
 .tol-enrollments-list .tol-enrollment-container:first-child .tol-enrollment {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 /*LIST STYLE*/
 .tol-enrollments-list .tol-enrollment-container .tol-enrollment {
-    border-color: #202225;
-    margin: 0px;
+  border-color: #202225;
+  margin: 0px;
 }
 
 /*LIST STYLE*/
 .tol-enrollments-list .tol-enrollment-container .tol-enrollment:hover {
-    background-color: #202225;
-    border-color: #202225;
+  background-color: #202225;
+  border-color: #202225;
 }
 
 /*TITELS UPDATES EN BERICHTEN*/
@@ -168,6 +202,22 @@ body {
   color: #b9bbbe;
 }
 
+.tol-enrollment-information.available
+.panel-heading{
+    background-color: #2f3136;
+}
+.tol-enrollment-information.available
+    .panel-heading
+    .tol-title{
+    color: #b9bbbe
+}
+
+.tol-enrollment-information.available
+.panel-body{
+    background-color: #40444b;
+    color: #b9bbbe    
+}
+
 /*AANTAL MELDINGEN VAKKEN*/
 .tol-enrollment .tol-events-badge {
   background-color: #871400;
@@ -193,7 +243,7 @@ body {
 .btn-primary {
   background-color: #2f3136;
   border-color: #202225;
-  color: #b9bbbe; 
+  color: #b9bbbe;
   font-weight: bold;
 }
 
@@ -201,67 +251,72 @@ body {
 .btn-primary:hover {
   background-color: #202225 !important;
   border-color: #202225 !important;
-  color: #e3e3e3; 
+  color: #e3e3e3;
 }
 
 /*ZOEK KNOP KKRZOOI*/
-.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
-    background-color: #202225;
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group {
+  background-color: #202225;
 }
 
- /*WINDOWS LOOKIN ASS BUTTON*/
+/*WINDOWS LOOKIN ASS BUTTON*/
 .btn-primary.active {
-    color: #b9bbbe;
+  color: #b9bbbe;
 }
 
- /*WINDOWS LOOKIN ASS BUTTON HOVER*/
+/*WINDOWS LOOKIN ASS BUTTON HOVER*/
 .btn-primary.active:hover {
-    color: #e3e3e3;
+  color: #e3e3e3;
 }
 
 /*WINDOW AND LIST BUTTON WHEN ACTIVE*/
-.btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
-    background-color: #202225;
-    border-color: #202225;
+.btn-primary.active,
+.btn-primary:active,
+.open > .btn-primary.dropdown-toggle {
+  background-color: #202225;
+  border-color: #202225;
 }
 
 /*FILTER AND COGWHEEL BUTTON*/
 .btn-default {
-    background-color: #2f3136;
-    border-color: #202225;
-    color: #b9bbbe;
+  background-color: #2f3136;
+  border-color: #202225;
+  color: #b9bbbe;
 }
 
 /*FILTER AND COGWHEEL BUTTON HOVER*/
 .btn-default:hover {
-    background-color: #202225;
-    border-color: #202225;
-    color: #e3e3e3;
+  background-color: #202225;
+  border-color: #202225;
+  color: #e3e3e3;
 }
 
 /*FILTER DROPDOWN ACTIVE*/
 .btn-block:active {
-    background-color: #202225 !important;
-    color: #e3e3e3 !important;
+  background-color: #202225 !important;
+  color: #e3e3e3 !important;
 }
 
 /*SOMETHING WITH COGWHEEL IDK ANYMORE TBH*/
 .btn-default:focus {
-    background-color: #202225 !important;
-    border-color: #202225 !important;
-    color: #e3e3e3 !important;
+  background-color: #202225 !important;
+  border-color: #202225 !important;
+  color: #e3e3e3 !important;
 }
 
 /*SOMETHING WITH COGWHEEL IDK ANYMORE TBH*/
 .btn-default:active {
-    border-color: #202225 !important;
+  border-color: #202225 !important;
 }
 
 /*SOMETHING WITH COGWHEEL IDK ANYMORE TBH*/
-.btn-default.active, .btn-default:active, .open>.btn-default.dropdown-toggle {
-    background-color: #202225;
-    border-color: #202225;
-    color: #e3e3e3;
+.btn-default.active,
+.btn-default:active,
+.open > .btn-default.dropdown-toggle {
+  background-color: #202225;
+  border-color: #202225;
+  color: #e3e3e3;
 }
 
 /*ICON NEXT TO FILTER*/
@@ -272,133 +327,152 @@ body {
 }
 
 /*NAVIGATION*/
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
-    color: #b9bbbe;
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-text {
+  color: #b9bbbe;
 }
 
 /*NAVIGATION HOVER*/
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-text {
-    color: #e3e3e3;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-text {
+  color: #e3e3e3;
 }
 
 /*NAVIGATION DROPDOWN BUTTON ACTIVATED*/
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    background-color: #202225;
-    color: #b9bbbe;
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #202225;
+  color: #b9bbbe;
 }
 
 /*NAVIGATION DROPDOWN MENU*/
 .dropdown-menu {
-    background-color: #202225;
+  background-color: #202225;
 }
 
 /*ITEMS NAVIGATION DROPDOWN MENU*/
-.dropdown-menu>li>a {
-    color: #b9bbbe;
+.dropdown-menu > li > a {
+  color: #b9bbbe;
 }
 
 /*ITEMS NAVIGATION DROPDOWN MENU HOVER*/
-.dropdown-menu>li>a:hover {
-    background-color: #2f3136;
-    color: #b9bbbe;
+.dropdown-menu > li > a:hover {
+  background-color: #2f3136;
+  color: #b9bbbe;
 }
 
 /*BACKGROUND ICONS*/
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
-    background-color: #2f3136;
-    border-radius:5px;
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-text {
+  background-color: #2f3136;
+  border-radius: 5px;
 }
 
 /*BACKGROUND ICONS HOVER*/
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-text {
-    background-color: #202225;
-    border-radius:5px;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-text {
+  background-color: #202225;
+  border-radius: 5px;
 }
 
 /*HOME ICON*/
 .glyphicon-home:before {
-    color: #b9bbbe !important;
+  color: #b9bbbe !important;
 }
 
 /*HOME ICON HOVER*/
 .glyphicon-home:hover:before {
-    color: #e3e3e3 !important;
+  color: #e3e3e3 !important;
 }
 
 /*ENVELOPE ICON*/
 .glyphicon-envelope:before {
-    color: #b9bbbe !important;
+  color: #b9bbbe !important;
 }
 
 /*ENVELOPE ICON HOVER*/
 .glyphicon-envelope:hover:before {
-    color: #e3e3e3 !important;
+  color: #e3e3e3 !important;
 }
 
 /*PAPER PLANE ICON*/
 .glyphicon-send:before {
-    color: #b9bbbe !important;
+  color: #b9bbbe !important;
 }
 
 /*PAPER PLANE ICON HOVER*/
 .glyphicon-send:hover:before {
-    color: #e3e3e3 !important;
+  color: #e3e3e3 !important;
 }
 
 /*INBOX ICON*/
 .glyphicon-inbox:before {
-    color: #b9bbbe !important;
+  color: #b9bbbe !important;
 }
 
 /*INBOX ICON HOVER*/
 .glyphicon-inbox:hover:before {
-    color: #e3e3e3 !important;
+  color: #e3e3e3 !important;
 }
 
 /*DASHBOARD ICON*/
-.fa-dashboard:before, .fa-tachometer:before {
-    color: #b9bbbe !important;
+.fa-dashboard:before,
+.fa-tachometer:before {
+  color: #b9bbbe !important;
 }
 
 /*DASHBOARD ICON HOVER*/
-.fa-dashboard:before, .fa-tachometer:hover:before {
-    color: #e3e3e3 !important;
+.fa-dashboard:before,
+.fa-tachometer:hover:before {
+  color: #e3e3e3 !important;
 }
 
 /*PROFILE ICON*/
 .profile-icon {
-    background: #b9bbbe;
-    color: #40444b;
+  background: #b9bbbe;
+  color: #40444b;
 }
 
 /*PROFILE ICON*/
 .profile-icon:hover {
-    background: #e3e3e3;
+  background: #e3e3e3;
 }
 
 /*PROFILE DROPDOWN DIVIDERS*/
 .dropdown-menu .divider {
-    background-color: #40444b;
+  background-color: #40444b;
 }
 
 /*"POSITIE INFOTEGELS" > PROFILE ICON*/
-.dropdown-menu>li>tol-feature-toggles {
-    color: #b9bbbe;
+.dropdown-menu > li > tol-feature-toggles {
+  color: #b9bbbe;
+}
+
+/*INFO ICON*/
+.glyphicon-info-sign:before {
+  color: #b9bbbe;
 }
 
 /*INFO ICON > PROFILE ICON*/
 .glyphicon-info-sign:hover:before {
-    color: #e3e3e3;
+  color: #e3e3e3;
 }
 
 /*THREEPOINT ICON*/
 .glyphicon-option-horizontal:before {
-    color: #b9bbbe !important;
+  color: #b9bbbe !important;
 }
 
 /*THREEPOINT ICON HOVER*/
 .glyphicon-option-horizontal:hover:before {
-    color: #e3e3e3 !important;
+  color: #e3e3e3 !important;
+}
+
+.tol-events-list .info-message {
+  background-color: #2f3136;
+  color: #b9bbbe;
+  padding: 10px 0;
 }
 
 .tol-enrollments-preview-tiles
