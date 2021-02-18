@@ -37,6 +37,30 @@ body {
   border-color: #202225;
 }
 
+/*LINKS*/
+a {
+    color: #00a8c9;
+}
+
+/*LINKS HOVER*/
+a:hover {
+    color: #027b93;
+    text-decoration: none;
+}
+
+/*CLOSE BUTTON*/
+.close {
+    color: #b9bbbe;
+    opacity: 100;
+    filter: 0;
+}
+
+/*CLOSE BUTTON*/
+.close:hover {
+    color: #e3e3e3;
+}
+
+
 /*UPDATES EN BERICHTEN HOVER*/
 .tol-events-list .tol-event a:hover {
   background-color: #202225;
@@ -422,6 +446,11 @@ output {
 
 /*"POSITIE INFOTEGELS" > PROFILE ICON*/
 .dropdown-menu > li > tol-feature-toggles {
+  color: #b9bbbe;
+}
+
+/*INFO ICON*/
+.glyphicon-info-sign:before {
   color: #b9bbbe;
 }
 
