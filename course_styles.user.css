@@ -78,7 +78,9 @@ div.portfolioRightPage #pageTitleDiv h1#pageTitleHeader span {
 #content.contentBox ul.contentListPlain > li > .details {
   color: #b9bbbe !important;
 }
-
+.details:not(:hover) div div{
+    color: #b9bbbe
+}
 .announcementList span {
   color: #b9bbbe !important;
 }
