@@ -272,3 +272,17 @@ body.learningAnalytics #pageTitleDiv .statusContainer.itemStatus::before {
   border-color: #53618f;
   color: #fff;
 }
+body.tol_learningModulePage #contentPanel #tocCart,
+a.tocItem::after, #globalNavPageContentArea .contentPaneWide #content.contentBox{
+    background-color: #2f3136 !important;
+    color: #b9bbbe
+}
+#tocTree li>a.tocItem, #tocTree li>span, #tocTree li a.tocItem.itemActive{
+    color: #7289da !important;
+}
+#content .vtbegenerated p span,.navPageTitle{
+    color: #b9bbbe !important;
+}
+.label, .attachments.clearfix{
+    color: #b9bbbe
+}
