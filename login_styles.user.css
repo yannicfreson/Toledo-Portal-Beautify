@@ -1,78 +1,63 @@
 body {
-  background: url(https://i.pinimg.com/originals/3a/ba/07/3aba073ed5032293d7e854a1fc7502a7.jpg);
-  background-size: cover;
-  background-position: center;
+    font-family: arial
 }
 
-.flyout,
-.global-footer .footer-navbar,
-.global-header {
-  background: none;
+#background {
+    display: none !important;
 }
 
-header {
-  display: none;
+.vw-100 > div:nth-child(1) {
+    background: url(https://wallpaperaccess.com/full/3574170.jpg);
+    background-size: cover;
 }
 
-.footer-wrapper {
-  display: none;
+#background-footer {
+    background: none;
 }
 
-#box-content {
-  background-color: rgba(50, 50, 75, 0.8);
-  border-radius: 0.5rem;
-  margin-top: 20%;
+.logo-img {
+    display: none;
 }
 
-.btn-primary,
-.btn-primary:visited {
-  background-color: rgba(48, 2, 85);
-  border-color: rgba(28, 0, 65);
+.art4campus {
+    display: none;
 }
 
-.btn-primary:focus,
-.btn-primary:hover {
-  background-color: rgba(38, 0, 75);
-  border-color: rgba(18, 0, 55);
+.sidebar {
+    margin: 0 auto;
 }
 
-#box-content .word {
-  display: none;
+#footer {
+    display: none;
 }
 
-.btn,
-button,
-input[type="submit"] {
-  display: block;
+#service-info {
+    display: none;
 }
 
-#btnnextauthlogin {
-  margin-bottom: 0.72rem;
-  height: 5.44rem;
+div.form-group:nth-child(7) {
+    display: none;
 }
 
-.form-check-input {
-  margin-top: 0.35rem;
+.sidebar :is(.btn-primary, .btn-primary:hover), .btn:active {
+    background-color: hsla(0,0%,100%,0.65) !important;
+    color:hsl(0,0%,25%);
+    font-weight: 600
 }
 
-#pwdLoginBtn {
-  margin-top: 1.09rem;
-  height: 2.7rem;
+.btn-primary {
+    border: none;
 }
 
-#headingOne {
-  margin-top: 1.64rem;
+#password {
+    filter:none;
 }
 
-.login-input .fa {
-  color: unset;
+#btnnextauthlogin > img:nth-child(1) {
+    filter: grayscale()
 }
 
-img,
-svg {
-  filter: grayscale(100%);
+.text-muted, a.text-muted {
+    color: hsl(0,0%,80%) !important
 }
 
-#box-content input[type="password"] {
-  filter: none;
-}
