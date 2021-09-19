@@ -1,3 +1,7 @@
+:root {
+    accent-color:hsl(178, 0%, 100%);
+}
+
 body {
     font-family: arial
 }
@@ -60,4 +64,3 @@ div.form-group:nth-child(7) {
 .text-muted, a.text-muted {
     color: hsl(0,0%,80%) !important
 }
-
