@@ -76,3 +76,7 @@ svg {
 #box-content input[type="password"] {
   filter: none;
 }
+
+#background{
+  background: none;
+}
