@@ -53,7 +53,7 @@ div.form-group:nth-child(7) {
     border: none;
 }
 
-#password {
+#password, #username {
     filter:none;
 }
 
